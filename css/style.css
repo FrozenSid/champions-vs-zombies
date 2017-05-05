@@ -1,0 +1,1249 @@
+/*CSS Stylesheet for the website*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ============================
+  ||  Style for everything    ||
+  =============================*/
+ *{
+	margin: 0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+}
+
+
+
+/* ==============================
+   ||     BODY Style            ||
+   ===============================*/
+
+body{
+	text-align:left;
+	color:#fff;
+	background-color: #000;
+	font-size:100%;
+	font-family: "Creepster" sans-serif;
+}
+
+.body{
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+}
+
+
+
+/* =============================
+  ||    LINKS Styles           ||
+  ===============================*/
+  
+a{
+	color:#C0C0F0;	
+}
+
+a:linked, a:visited {
+	color:#FF8800;
+}
+
+a:hover, a:active {
+	color:#FFEA00;
+}
+
+
+
+/* =========================================
+  ||     MAINHEADER with menu Styles       ||
+  ===========================================*/
+  
+.mainheader{
+	width: 1000px;
+	height: 50px;
+	background-color:#000;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom: 5px solid #A6A616;
+	overflow:hidden;
+}
+
+.mainheader nav ul li {
+	display:inline;
+	float:left;
+}
+
+.mainheader nav a:link, .mainheader a:visited {
+	color:#fff;
+	display:inline-block;
+	padding:17px 25px;
+	margin-right: 5px;
+}
+
+
+.mainheader nav a:hover {
+	text-shadow: none;
+	color:#FFEA00;
+	cursor:pointer;
+}
+
+.fullwidth {
+	height:50px;
+	background-color:#000;
+	border-bottom: 5px solid #A6A616;
+	width:100%;
+	clear:both;
+}
+
+
+
+
+/* ============================
+   ||     SEARCH BUTTON       ||
+   ============================ */
+   
+.search input{
+	padding: 5px;
+	margin-top:10px;
+	float: right;
+	background: #000;
+	outline: none;
+	border:2px solid #A6A616;
+	color: #fff;
+}
+
+.search input:focus {
+	border: 2px solid #00FF00;
+}
+
+/*The next 3 styles change the color of the placeholder in the "Search" form
+Supported by the different browsers*/
+
+::-webkit-input-placeholder {  /*for Chrome*/
+	color: #fff;
+}
+
+:-moz-placeholder {  /*for Firefox*/
+	color:#fff;
+}
+
+:-ms-input-placeholder {
+	color:#fff; /*for Internet Explorer*/
+}
+
+
+/* =====================================
+   ||   ZOMBIES <div> in zombies.php   ||
+   =====================================*/
+
+.champs-vs-zombies1 img {
+	margin-left: -100px;
+	padding-top: 20px;
+}   
+
+.champs-vs-zombies2 img {
+	width: 150px;
+	height: 100px;
+	margin-top: -100px;
+	margin-bottom: 13px;
+	margin-left: 530px;
+	
+}
+
+.champs-vs-zombies3 img{
+	margin-left: 690px;
+	margin-top: -126px;
+	margin-bottom: 10px;
+	
+}
+
+.zombies{
+	padding:10px;
+	width:980px;
+	border:2px solid #A6A616;
+	margin-top:0px;
+}
+
+.zombiesheader {
+	padding:8px;
+	border-bottom:2px solid #fff;
+	font-size:25px;
+}
+
+.zombiesheader h2 {
+	margin-bottom:3px;
+}
+
+.zombiesbody {
+	padding: 5px;
+}
+
+.zombiesbody img{
+	width: 90px;
+	height: 160px;
+	margin-left: 2.3px;
+	margin-bottom:5px;
+	margin-top:5px;
+	cursor:pointer;
+	
+	
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	
+}
+
+.zombiesbody img:hover {
+	box-shadow: 0px 0px 30px rgba(64,255,48,0.9);
+}
+
+
+.zombieinfo {
+	padding: 30px;
+	border-top:2px solid #fff;
+	margin-top:5px;
+	display:none;
+}
+
+
+#image1 {
+	margin-left: 285px;
+	margin-top: -140px;
+	
+}
+
+#image1 img {
+	width:160px;
+	height: 120px;
+}
+
+#image2 {
+	margin-left: 470px;
+	margin-top: -121px;
+}
+
+#image2 img {
+	width: 440px;
+	height: 120px;
+}
+
+
+
+#close {
+	float:right;
+	cursor:pointer;
+	margin-top:-37px;
+	border: 2px solid #A6A616;
+	padding: 5px;
+	display:none;
+}
+
+.z1 {
+	font-size: 17px;
+	display:inline;
+	color: #16f603;
+	padding-top:0px;
+}
+
+.feature {
+	font-size: 17px;
+	display:inline;
+}
+
+
+
+/* ===========================
+   ||    Contact FORM        ||
+   ============================ */
+
+.contact {
+	width:1000px;
+	height:200px;
+	padding:30px;
+	border-bottom: 3px solid #A6A616;
+	margin-right: auto;
+	margin-left: auto;
+	border-right: 3px solid #A6A616;
+	border-left: 3px solid #A6A616;
+	display:none;
+}
+
+.form {
+	width: 300px;
+	margin-right: 10px;
+	padding: 10px;
+	float:left;
+}
+
+
+.submit {
+	padding:10px;
+	border:1px solid #A6A616;
+	margin-top:20px;
+	display:inline-block;
+	float:left;
+	background:#000;
+	color:#FFEA00;
+}
+
+.submit:hover {
+	border: 1px solid #fff;
+	background: #16f603;
+	color: #000;
+}
+
+
+#contactdiv input {
+	padding: 5px;
+	float:left;
+	background: #000;
+	border: 1px solid #A6A616;
+	margin-bottom: 10px;
+	color: #A6A616;
+	outline: none;
+	min-width: 300px;
+}
+
+#contactdiv input:focus {
+	background: #16f603;
+	border: 1px solid #fff;
+	margin-right: 10px;
+	color: #000;
+	outline: none;
+}
+
+#contactdiv textarea {
+	float:left;
+	background:#000;
+	border:1px solid #A6A616;
+	color: #A6A616;
+	padding: 5px;
+	min-height: 180px;
+	max-height: 180px;
+	min-width: 300px;
+	max-width: 300px;
+	resize: none;
+	outline: none;
+}
+
+#contactdiv textarea:focus {
+	background: #666;
+	border: 1px solid #fff;
+	margin-right: 10px;
+	color: #16f603;
+	outline: none;
+}
+
+
+/* ===============================
+   ||   THE GAME Menu/Submenu    ||
+   =============================== */
+
+#gamesub {
+	border-left: 1px solid #A6A616;
+	border-right: 1px solid #A6A616;
+	position: fixed;
+	background: #000;
+	top:50px;
+	display:none;
+}
+
+#gamesub li {
+	display: inline;
+	float:left;
+	clear:both;
+	text-align: center;
+	width: 120px;
+	cursor: pointer;
+	border-bottom: 1px solid #A6A616;
+}
+
+#gamesub li a {
+	cursor: pointer;
+}
+
+#gamesub a:link, #gamesub a:visited {
+	color: #fff;
+}
+
+#gamesub li a:hover {
+	color: #FFEA00;
+}
+
+
+
+
+/* =================================
+   ||   Updates Section (left) and ||
+   ||   Video Section (right)	   ||
+   ||       "Home Page"            ||
+   ==================================*/
+
+.right {
+	float: right;
+	width: 680px;
+	clear: right;
+	margin-left: 20px;
+	margin-top:20px;
+}
+
+.left {
+	float: left;
+	width: 300px;
+	clear: left;
+	margin-top:20px;
+}
+
+
+
+/* =======================
+   ||  updates.php CSS   ||
+   ======================= */
+
+.uu {
+	width:300px;
+	margin-bottom: 10px;
+	height:auto;
+	border: 2px solid #A6A616;
+}
+
+.uuhead {
+	padding: 10px;
+	font-size:25px;
+	border-bottom:2px solid #A6A616;
+}
+
+.uubody {
+}
+
+.uupost {
+	clear:both;
+	width: 300px;
+	cursor: default;
+	margin-bottom: 10px;
+}
+
+.uupost:hover {
+	color: #FFEA00;
+}
+
+
+.uuposthead {
+	font-weight: bold;
+	padding: 10px;
+}
+
+#title {
+	color: lime;
+}
+
+.uupostbody {
+	padding-left: 30px;
+	margin-right: 27px;
+}
+
+
+/*===============================
+||   COPYRIGHT FOOTER           ||
+  ================================*/
+  
+#copyright {
+	color: lime;
+	bottom: 10px;
+	text-align: center;
+	padding-bottom:2px;
+	width:100%;
+	position:relative;
+}
+
+#copyright2 {
+	bottom: 10px;
+	text-align: center;
+	width:100%;
+	position:relative;
+}
+
+.footer {
+	bottom: -30px;
+	left: 0px;
+	right:0px;
+	text-align: center;
+	width:100%;
+	position:relative;
+}
+
+/*FOR copyright.php in ZOMBIES PAGE (zombiepage.php)
+					in CHAMPIONS PAGE (champions.php) */
+
+.footerzombies, .footerchamps {
+	bottom: -180px;
+	left: 0px;
+	right:0px;
+	text-align: center;
+	width:100%;
+	position:relative;
+}
+
+
+/*FOR copyright.php in HOME PAGE (index.php) */
+
+.footerhome {
+	bottom: -50px;
+	left: 0px;
+	right:0px;
+	margin-left:-300px;
+	margin-right: 30px;
+	text-align: center;
+	position:relative;
+}
+
+
+
+/* =================================================
+   ||    HOMEPAGE NEWS (VIDEO) AND SERVERS.PHP	  || 
+   ================================================= */
+   
+.news {
+	margin-bottom: 20px;
+	border: 2px solid #A6A616;
+}
+
+
+.servers {
+	margin-top: -40px;
+	border: 2px solid #A6A616;
+}
+
+.newshead, .servershead {
+	padding: 10px;
+	font-size:25px;
+	border-bottom:2px solid #A6A616;
+}
+
+.newsbody, .serversbody {
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+.newsbody p {
+	padding: 10px;
+}
+
+#showmore {
+	display:none;
+	line-height: 18px;
+}
+
+#show {
+	padding:10px;
+	margin-top: 15px;
+	font-size:20px;
+	max-width: 140px;
+	border: 2px solid #A6A616;
+	cursor: pointer;
+}
+
+#show:hover {
+	border: 2px solid lime;
+	color: #FFEA00;
+}
+
+.servertitle, .servertitle2, .servertitle3{
+	color: #FFEA00;
+	font-size: 22px;
+	
+}
+
+.servertitle2, .servertitle3 {
+	margin-top: 10px;
+}
+
+.servertitleborder {
+	border-bottom: 2px solid #fff;
+	margin-top: 5px;
+	margin-bottom:5px;
+	width:90px;
+	border-color: #FFEA00;
+}
+
+.serversbody p {
+	font-size:18px;
+}
+
+.red {
+	color:red;
+}
+
+
+
+/* ======================================
+   ||   CHAMPIONS MENU (champions.php)  || 
+   ====================================== */
+   
+.champions{
+	padding:10px;
+	width:980px;
+	border:2px solid #A6A616;
+	margin-top:10px;
+}
+
+.champimages img {
+	width: 400px;
+	height: 500px;
+	margin-left: 0px;
+	margin-bottom:20px;
+	margin-top:35px;
+	border: 4px solid lime;
+	border-radius: 5%;
+	
+}
+
+
+
+#image3 img {
+	width: 95px;
+    height: 85px;
+    margin-left: 360px;
+    margin-top: -84px;
+}
+
+#image4 img{
+	margin-left: 490px;
+    margin-top: -84px;
+    width: 210px;
+    height: 85px;
+}
+
+#image5 img {
+	margin-left: 740px;
+    margin-top: -84px;
+	width: 95px;
+    height: 85px;
+    
+}
+
+
+.info1 {
+	margin-left: 450px;
+	border: 4px solid #A6A616;
+	width: 528px;
+	height: 340px;
+	margin-top: -5612px;
+	padding: 10px;
+	font-size: 25px;
+	text-align: center;
+	
+}
+
+.info2, .info3, .info4, .info5, .info6,
+.info7, .info8, .info9, .info10 {
+	margin-left: 450px;
+	border: 4px solid #A6A616;
+	width: 528px;
+	height: 340px;
+	margin-top: 197px;
+	padding: 10px;
+	font-size: 25px;
+	text-align: center;
+}
+
+.green {
+	color: lime;
+}
+
+
+.topline {
+	border-top:  2px solid;
+	margin-top: 10px;
+    margin-left: 55px;
+    margin-right: 55px;
+
+}
+
+
+.champbody1 {
+	margin-top: -5387px;
+    width: 533px;
+    margin-left: 468px;
+    font-size: 20px;
+}
+
+.champbody2 {
+	margin-top: 252px;
+    width: 533px;
+    margin-left: 468px;
+    font-size: 20px;
+	
+}
+
+.champbody3 {
+	margin-top: 250px;
+	width: 533px;
+	margin-left: 468px;
+	font-size: 20px;
+}
+
+.champbody4 {
+	margin-top: 250px;
+	width: 533px;
+	margin-left: 468px;
+	font-size: 20px;
+}
+
+.champbody5 {
+	margin-top: 251px;
+	width: 533px;
+	margin-left: 468px;
+	font-size: 20px;
+}
+
+.champbody6 {
+	margin-top: 251px;
+	width: 533px;
+	margin-left: 468px;
+	font-size: 20px;
+}  
+
+.champbody7 {
+	margin-top: 251px;
+	width: 533px;
+	margin-left: 468px;
+	font-size: 20px;
+} 
+
+.champbody8 {
+	margin-top: 251px;
+	width: 533px;
+	margin-left: 468px;
+	font-size: 20px;
+} 
+
+.champbody9 {
+	margin-top: 251px;
+	width: 533px;
+	margin-left: 468px;
+	font-size: 20px;
+} 
+
+.champbody10 {
+	margin-top: 251px;
+	width: 533px;
+	margin-left: 468px;
+	font-size: 20px;
+}
+
+ 
+#effect, #effect2, #effect3, #effect4, #effect5,
+#effect6, #effect7, #effect8, #effect9, #effect10 {
+	display:none;
+	position: absolute;
+	border: 4px solid #00FFEE;
+    padding: 9px;
+    width: 530px;
+    height: 105px;
+    color: #00FFEE;
+    margin-left: -18px;
+}
+
+
+#showability, #showability2, #showability3,
+#showability4, #showability5, #showability6,
+#showability7, #showability8, #showability9, #showability10 {
+	color: #00FFEE;
+	padding: 5px;
+	max-width: 130px;
+	border: 2px solid #00FFEE;
+	cursor: pointer;
+}
+
+#showability:hover, #showability2:hover, #showability3:hover,
+#showability4:hover, #showability5:hover, #showability6:hover,
+#showability7:hover, #showability8:hover, #showability9:hover,
+#showability10:hover {
+	border: 2px solid #FFEA00;
+	color: #FFEA00;
+}
+
+
+/* ======================================
+   ||   ZOMBIES MENU (zombiespage.php)  || 
+   ====================================== */
+
+   
+.zmimages img {
+	width: 400px;
+	height: 500px;
+	margin-left: 0px;
+	margin-bottom:20px;
+	margin-top:35px;
+	border: 4px solid lime;
+	border-radius: 5%;
+	
+}
+
+/*.info, .topline and .green DIVs are found in CHAMPIONS MENU */
+
+
+
+/* =================================
+   ||   GUIDES MENU (guides.php)  || 
+   ================================= */
+
+   
+.whathere {
+	border: 2px solid #A6A616;
+	font-size: 25px;
+	padding: 10px;
+	color: lime;
+	margin-top: 5px;
+}
+
+.general p{
+	border: 2px solid #A6A616;
+	border-top: none;
+	padding:10px;
+	font-size: 18px;
+}
+
+.general p:hover {
+	color: #FFEA00;
+}
+
+.words {
+	color: lime;
+}
+
+.zmhints, .champhints {
+	margin-top: 30px;
+	font-size: 25px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 2px solid #A6A616;
+}
+
+.bottomborder {
+	border-bottom: 2px solid #fff;
+	margin-top: 10px;
+}
+
+#zmquery, #champquery {
+	margin-top: -30px;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+
+#query1, #query2, #query3, #query4, #query5 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 550px;
+	font-size: 20px;
+	color: #00FFEE;
+	border: 2px solid #00FFEE;
+	max-width: 120px;
+	padding: 5px;
+	cursor:pointer;
+	text-align: center;
+}
+
+
+#query6, #query7, #query8, #query9, #query10, #query11, #query12,
+#query13, #query14, #query15, #query16, #query17, #query18,
+#query19, #query20, #query21, #query22, #query23, #query24 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 750px;
+	font-size: 20px;
+	color: #00FFEE;
+	border: 2px solid #00FFEE;
+	max-width: 120px;
+	padding: 5px;
+	cursor:pointer;
+	text-align: center;
+}
+
+#query1:hover, #query2:hover, #query3:hover, #query4:hover, #query5:hover,
+#query6:hover, #query7:hover, #query8:hover, #query9:hover, #query10:hover,
+#query11:hover, #query12:hover, #query13:hover, #query14:hover, #query15:hover,
+#query16:hover, #query17:hover, #query18:hover, #query19:hover, #query20:hover,
+#query21:hover, #query22:hover, #query23:hover, #query24:hover {
+	margin-top: 10px;
+	font-size: 20px;
+	color: #FFEA00;
+	cursor:pointer;
+	border: 2px solid #FFEA00;
+	text-align: center;
+}
+
+#showresult1, #showresult2, #showresult3, #showresult4, #showresult5, #showresult6,
+#showresult7, #showresult8, #showresult9, #showresult10, #showresult11, #showresult12, 
+#showresult13, #showresult14, #showresult15, #showresult16, #showresult17, #showresult18,
+#showresult19, #showresult20, #showresult21, #showresult22, #showresult23, #showresult24 {
+	display: none;
+}
+
+
+/* ====================================
+   ||     ABOUT MENU (about.php)     || 
+   ==================================== */
+
+.aboutcvsz {
+	margin-top: 30px;
+	font-size: 25px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 2px solid #A6A616;
+}
+   
+.about {
+	padding:10px;
+	font-size: 18px;
+	color: #FFEA00;
+}
+
+
+/* ========================================
+   ||     WEAPONS MENU (weapons.php)     || 
+   ======================================== */
+
+.pistols, .guns {
+	margin-top: 30px;
+	font-size: 25px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 2px solid #A6A616;
+}
+
+
+.pistolspics img {
+	width: 400px;
+	height: 300px;
+	margin-left: 50px;
+	margin-bottom:20px;
+	margin-top:5px;
+	border: 4px solid lime;
+	border-radius: 5%;
+	
+}
+
+.pistolspics p {
+	margin-top: 20px;
+	margin-left: 120px;
+	color: #FFEA00;
+}
+
+.pistolspics2 {
+	margin-left: 500px;
+	margin-top: -1910px;
+}
+
+.pistolspics2 img {
+	width: 400px;
+	height: 300px;
+	margin-left: 20px;
+	margin-bottom:20px;
+	margin-top:5px;
+	border: 4px solid lime;
+	border-radius: 5%;
+}
+
+.pistolspics2 p {
+	margin-top: 20px;
+	margin-left: 120px;
+	color: #FFEA00;
+}
+
+
+.shotgunpics img, .assaultpics img, 
+.riflepics img, .machinegunpics img {
+	width: 900px;
+	height: 200px;
+	margin-left: 35px;
+	margin-bottom:20px;
+	margin-top:5px;
+	padding: 10px;
+	border: 4px solid lime;
+}
+
+
+.assaultpics p, .shotgunpics p ,
+.riflepics p, .machinegunpics p {
+	color: #00FFEE;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.assault, .shotgun, .rifle, .machine {
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #FFEA00;
+}
+
+   
+/* =====================================
+   ||   CONTROLS MENU (controls.php)  || 
+   ===================================== */
+   
+.controls, .movementcontrols, .communicationcontrols,
+.guncontrols, .combatcontrols, .misccontrols {
+	margin-top: 30px;
+	font-size: 25px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 2px solid #A6A616;
+}
+
+
+.controlsinfo {
+	padding:10px;
+	font-size: 18px;
+}
+
+.controlsinfo:hover {
+	color: #FFEA00;
+}
+
+.controlsleft {
+	margin-top: 5px;
+	padding: 10px;
+	margin-left: 300px;
+	font-size: 20px;
+	color: #00FFEE;
+}
+
+.controlsright {
+	margin-top: -185px;
+	padding: 10px;
+	margin-left: 540px;
+	font-size: 20px;
+	color: #FFEA00;
+}
+
+.controlsright2 {
+	margin-top:-105px;
+	padding: 10px;
+	margin-left: 540px;
+	font-size: 20px;
+	color: #FFEA00;
+}
+
+.controlsright3 {
+	margin-top:-185px;
+	padding: 10px;
+	margin-left: 540px;
+	font-size: 20px;
+	color: #FFEA00;
+}
+
+.controlsright4 {
+	margin-top:-265px;
+	padding: 10px;
+	margin-left: 540px;
+	font-size: 20px;
+	color: #FFEA00;
+}
+
+.controlsright5 {
+	margin-top:-265px;
+	padding: 10px;
+	margin-left: 540px;
+	font-size: 20px;
+	color: #FFEA00;
+}
+
+/* =============================
+   ||   NEWS MENU (news.php)  || 
+   ============================= */
+
+.newspage {
+	margin-top: 30px;
+	font-size: 25px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 2px solid #A6A616;
+}
+
+#newsheader {
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: lime;
+}
+
+.account {
+	margin-left: 110px;
+}
+
+.account, .tournaments, .newzombieclasses, .maps {
+	font-size: 18px;
+	padding: 10px;
+	color: #FFEA00;
+}
+
+.newzombiesright {
+	margin-left: 120px;
+	color: #00FFEE;
+}
+
+
+.newzombiesbody {
+	padding: 5px;
+}
+
+.newzombiesbody img{
+	width: 185px;
+	height: 400px;
+	margin-left: 2.3px;
+	margin-bottom:5px;
+	margin-top:5px;
+	cursor:pointer;
+	
+	
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	
+}
+
+.newzombiesbody img:hover {
+	box-shadow: 0px 0px 30px rgba(64,255,48,0.9);
+}
+
+.newzombiesheader {
+	padding:8px;
+	border-bottom:2px solid #fff;
+	font-size:22px;
+	color: #00FFEE;
+}
+
+.newzombiesheader h2 {
+	margin-bottom:2px;
+}
+
+.zombieinfo2 {
+	padding-left: 30px;
+	padding-bottom: 30px;
+	padding-top: 10px;
+	border:2px solid #A6A616;
+	margin-top:5px;
+	display:none;
+}
+
+
+.currentmaps {
+	margin-top: 10px;
+	color: #00FFEE;
+}
+
+.newmaps {
+	margin-left: 400px;
+	margin-top: -198px;
+	color: #00FFEE;
+}
+
+/* IN newzombieinfo.php FILE */
+
+.group {
+	font-size:18px;
+	
+}
+
+.lime {
+	color:lime;
+}
+
+
+/* ===============================
+   ||   RULES MENU (rules.php)  || 
+   =============================== */
+   
+.champrules, .zombierules, .adminrules {
+	margin-top: 30px;
+	font-size: 25px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 2px solid #A6A616;
+}
+
+.allowedtotitle {
+	font-size: 22px;
+	color: lime;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.notallowedtotitle {
+	font-size: 22px;
+	color: red;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.allowedto {
+	font-size: 18px;
+	color: lime;
+	margin-top:10px;
+}
+
+.notallowed {
+	font-size: 18px;
+	color: red;
+	margin-top:10px;
+}
+
+.notallowed p, .allowedto p {
+	line-height: 22px;
+}
+
+
+.topborder {
+	border-top: 2px solid #fff;
+	margin-bottom: 10px;
+}
+
+.aqua {
+	color: #00FFEE;
+}
